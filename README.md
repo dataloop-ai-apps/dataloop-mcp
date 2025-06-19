@@ -1,5 +1,8 @@
 # Dataloop MCP
 
+
+[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=dataloop-ai-mcp&config=eyJjb21tYW5kIjoiZG9ja2VyIHJ1biAtaSAtLXJtIC1lIERBVEFMT09QX0FQSV9LRVkgZG9ja2VyLmlvL2RhdGFsb29wYWkvbWNwOmxhdGVzdCIsImVudiI6eyJEQVRBTE9PUF9BUElfS0VZIjoiIn19)
+
 A Model Context Protocol (MCP) implementation for Dataloop AI that enables seamless integration with the Dataloop platform through a Docker-based stdio interface. MCP provides a standardized way for AI models to interact with their context and environment using standard input/output (stdio) for communication.
 
 ## Features

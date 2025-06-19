@@ -14,11 +14,11 @@ COPY main.py .
 CMD ["python", "main.py"]
 
 # Build image:
-# docker build -t docker.io/dataloopai/mcp:0.0.6 .
+# docker build -t docker.io/dataloopai/mcp:0.0.7 .
+# docker build -t docker.io/dataloopai/mcp:latest .
 
 # Push to registry:
-# docker tag docker.io/dataloopai/mcp:0.0.6 docker.io/dataloopai/mcp:latest
-# docker push docker.io/dataloopai/mcp:0.0.6
+# docker push docker.io/dataloopai/mcp:0.0.7
 # docker push docker.io/dataloopai/mcp:latest
 
 # Run container:

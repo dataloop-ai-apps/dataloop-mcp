@@ -132,10 +132,8 @@ def create_dataloop_mcp_server(settings: ServerSettings) -> FastMCP:
                     # Call a tool
                     tool_result = await session.call_tool("ask_dataloop", {"question": question})
                     return tool_result
-        except ValueError as e:
-            return {"error": str(e)}
         except Exception as e:
-            return {"error": f"Failed to process request: {str(e)}"}
+            return {"error": f"Failed to process request: {traceback.format_exc()}"}
 
     return app
 
